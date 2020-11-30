@@ -14,14 +14,16 @@ class myButton extends StatelessWidget {
       child: Padding(
         padding: EdgeInsets.only(left: 8,right: 8,bottom: 8),
         child: ClipRRect(
-          borderRadius: BorderRadius.circular(25),
+          borderRadius: BorderRadius.circular(24),
           child: Container(
             color: buttonColor,
             child: Center(
                 child: Text(text,style: TextStyle(
                     fontSize: 28,
-                    color: Colors.white
-                ),)
+                    color: Colors.white,
+                    fontFamily: 'Trajan Pro',
+                ),
+                )
             ),
           ),
         ),
